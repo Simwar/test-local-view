@@ -1,0 +1,17 @@
+{
+  "name": "virtual-pet-cafe-api",
+  "version": "1.0.0",
+  "description": "A fun API to manage a virtual pet cafe with adorable pets and visitors",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": ["api", "pets", "cafe", "express", "rest"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
+
