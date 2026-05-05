@@ -1,0 +1,3 @@
+$kind: collection
+name: Pets
+description: 'CRUD operations for managing pets in the cafe'

@@ -1,0 +1,6 @@
+$kind: collection
+name: Virtual Pet Cafe API
+description: 'A fun API to manage a virtual pet cafe with adorable pets and visitors'
+variables:
+  - key: baseUrl
+    value: 'http://localhost:3000'

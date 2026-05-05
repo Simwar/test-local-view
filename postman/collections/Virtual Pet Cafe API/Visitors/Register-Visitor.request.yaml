@@ -1,0 +1,15 @@
+$kind: http-request
+name: Register Visitor
+method: POST
+url: '{{baseUrl}}/api/visitors'
+description: 'Register a new visitor to the cafe'
+order: 3000
+headers:
+  - key: Content-Type
+    value: application/json
+body:
+  type: json
+  content: |-
+    {
+      "name": "Bob"
+    }

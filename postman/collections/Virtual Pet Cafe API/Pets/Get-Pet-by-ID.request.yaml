@@ -1,0 +1,9 @@
+$kind: http-request
+name: Get Pet by ID
+method: GET
+url: '{{baseUrl}}/api/pets/{{petId}}'
+description: 'Get a specific pet by its ID'
+order: 2000
+pathVariables:
+  - key: petId
+    value: '1'

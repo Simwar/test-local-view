@@ -1,0 +1,18 @@
+$kind: http-request
+name: Play with Pet
+method: POST
+url: '{{baseUrl}}/api/pets/{{petId}}/play'
+description: 'Play with a pet using a specified activity'
+order: 2000
+pathVariables:
+  - key: petId
+    value: '1'
+headers:
+  - key: Content-Type
+    value: application/json
+body:
+  type: json
+  content: |-
+    {
+      "activity": "fetch"
+    }

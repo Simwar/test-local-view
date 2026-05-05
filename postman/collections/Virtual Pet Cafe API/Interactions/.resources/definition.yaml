@@ -1,0 +1,3 @@
+$kind: collection
+name: Interactions
+description: 'Operations for managing interactions between visitors and pets'

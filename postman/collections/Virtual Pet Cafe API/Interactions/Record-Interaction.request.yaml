@@ -1,0 +1,17 @@
+$kind: http-request
+name: Record Interaction
+method: POST
+url: '{{baseUrl}}/api/interactions'
+description: 'Record a new interaction between a visitor and a pet'
+order: 2000
+headers:
+  - key: Content-Type
+    value: application/json
+body:
+  type: json
+  content: |-
+    {
+      "visitorId": 1,
+      "petId": 1,
+      "activity": "played with"
+    }

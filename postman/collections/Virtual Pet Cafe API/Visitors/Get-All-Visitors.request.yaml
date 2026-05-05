@@ -1,0 +1,6 @@
+$kind: http-request
+name: Get All Visitors
+method: GET
+url: '{{baseUrl}}/api/visitors'
+description: 'Get all visitors to the cafe'
+order: 1000

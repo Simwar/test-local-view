@@ -1,0 +1,6 @@
+$kind: http-request
+name: Get Welcome
+method: GET
+url: '{{baseUrl}}/'
+description: 'Welcome endpoint for the Virtual Pet Cafe API'
+order: 1000

@@ -1,0 +1,19 @@
+$kind: http-request
+name: Update Pet
+method: PUT
+url: '{{baseUrl}}/api/pets/{{petId}}'
+description: 'Update an existing pet by its ID'
+order: 4000
+pathVariables:
+  - key: petId
+    value: '1'
+headers:
+  - key: Content-Type
+    value: application/json
+body:
+  type: json
+  content: |-
+    {
+      "name": "Luna",
+      "color": "black and white"
+    }

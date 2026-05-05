@@ -1,0 +1,14 @@
+name: Virtual Pet Cafe
+values:
+  - key: baseUrl
+    value: 'http://localhost:3000'
+    enabled: true
+    type: default
+  - key: petId
+    value: '1'
+    enabled: true
+    type: default
+  - key: visitorId
+    value: '1'
+    enabled: true
+    type: default

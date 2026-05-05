@@ -1,0 +1,6 @@
+$kind: http-request
+name: Get All Interactions
+method: GET
+url: '{{baseUrl}}/api/interactions'
+description: 'Get all interactions between visitors and pets'
+order: 1000

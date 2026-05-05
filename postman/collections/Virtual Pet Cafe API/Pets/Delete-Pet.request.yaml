@@ -1,0 +1,9 @@
+$kind: http-request
+name: Delete Pet
+method: DELETE
+url: '{{baseUrl}}/api/pets/{{petId}}'
+description: 'Delete a pet from the cafe by its ID'
+order: 5000
+pathVariables:
+  - key: petId
+    value: '1'

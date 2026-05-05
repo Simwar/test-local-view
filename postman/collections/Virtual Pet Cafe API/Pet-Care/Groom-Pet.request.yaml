@@ -1,0 +1,16 @@
+$kind: http-request
+name: Groom Pet
+method: POST
+url: '{{baseUrl}}/api/pets/{{petId}}/groom'
+description: 'Groom a pet'
+order: 3000
+pathVariables:
+  - key: petId
+    value: '1'
+headers:
+  - key: Content-Type
+    value: application/json
+body:
+  type: json
+  content: |-
+    {}

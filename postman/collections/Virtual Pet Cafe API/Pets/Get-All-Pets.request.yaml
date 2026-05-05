@@ -1,0 +1,15 @@
+$kind: http-request
+name: Get All Pets
+method: GET
+url: '{{baseUrl}}/api/pets'
+description: 'Get all pets, optionally filtered by type or mood'
+order: 1000
+queryParams:
+  - key: type
+    value: ''
+    description: 'Filter by pet type (e.g. cat, dog, bunny)'
+    disabled: true
+  - key: mood
+    value: ''
+    description: 'Filter by mood'
+    disabled: true

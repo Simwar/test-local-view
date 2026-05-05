@@ -1,0 +1,9 @@
+$kind: http-request
+name: Get Visitor by ID
+method: GET
+url: '{{baseUrl}}/api/visitors/{{visitorId}}'
+description: 'Get a specific visitor by their ID'
+order: 2000
+pathVariables:
+  - key: visitorId
+    value: '1'

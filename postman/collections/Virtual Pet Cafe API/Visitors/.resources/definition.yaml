@@ -1,0 +1,3 @@
+$kind: collection
+name: Visitors
+description: 'Operations for managing visitors to the cafe'
